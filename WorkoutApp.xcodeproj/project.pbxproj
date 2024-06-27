@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E921CDD72C2A8C9700954FB2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921CDD62C2A8C9700954FB2 /* TabBarController.swift */; };
+		E921CDDA2C2D2EA400954FB2 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921CDD92C2D2EA400954FB2 /* UIColor + ext.swift */; };
+		E921CDDD2C2D2F7400954FB2 /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921CDDC2C2D2F7400954FB2 /* Resouces.swift */; };
 		E9A974612C1AB84000934C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A974602C1AB84000934C2D /* AppDelegate.swift */; };
 		E9A974632C1AB84000934C2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A974622C1AB84000934C2D /* SceneDelegate.swift */; };
 		E9A974652C1AB84000934C2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A974642C1AB84000934C2D /* ViewController.swift */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E921CDD62C2A8C9700954FB2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E921CDD92C2D2EA400954FB2 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
+		E921CDDC2C2D2F7400954FB2 /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
 		E9A9745D2C1AB84000934C2D /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A974602C1AB84000934C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9A974622C1AB84000934C2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E921CDD82C2D2E6800954FB2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E921CDDB2C2D2EBB00954FB2 /* Extensions */,
+				E921CDDC2C2D2F7400954FB2 /* Resouces.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E921CDDB2C2D2EBB00954FB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E921CDD92C2D2EA400954FB2 /* UIColor + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E9A974542C1AB84000934C2D = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +77,10 @@
 		E9A9745F2C1AB84000934C2D /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				E921CDD82C2D2E6800954FB2 /* Helpers */,
 				E9A974752C1AB99200934C2D /* Application */,
 				E9A974642C1AB84000934C2D /* ViewController.swift */,
+				E921CDD62C2A8C9700954FB2 /* TabBarController.swift */,
 				E9A974762C1ABA3700934C2D /* SupportingFiles */,
 			);
 			path = WorkoutApp;
@@ -151,7 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9A974652C1AB84000934C2D /* ViewController.swift in Sources */,
+				E921CDD72C2A8C9700954FB2 /* TabBarController.swift in Sources */,
 				E9A974612C1AB84000934C2D /* AppDelegate.swift in Sources */,
+				E921CDDA2C2D2EA400954FB2 /* UIColor + ext.swift in Sources */,
+				E921CDDD2C2D2F7400954FB2 /* Resouces.swift in Sources */,
 				E9A974632C1AB84000934C2D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
