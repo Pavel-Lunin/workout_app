@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  OverviewController.swift
 //  WorkoutApp
 //
 //  Created by Pavel on 13.06.2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OverviewController: BaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
