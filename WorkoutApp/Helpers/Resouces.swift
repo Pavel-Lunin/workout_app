@@ -25,6 +25,20 @@ enum Resources {
             static var progress = "Progress"
             static var settings = "Settings"
         }
+        enum NavBar {
+            static var overview = "Overview"
+            static var session = "High Intensity Cardio"
+            static var progress = "Workout Progress"
+            static var settings = "Settings"
+        }
+        enum Session {
+            static var navBarLeft = "Pause"
+            static var navBarRight = "Finish"
+        }
+        enum Progress {
+            static var navBarLeft = "Export"
+            static var navBarRight = "Ditails"
+        }
     }
     
     enum Images {
